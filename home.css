@@ -1,0 +1,330 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#bg-lap{
+    background: linear-gradient(rgba(0, 0, 0, 0.364),rgba(0, 0, 0, 0.763)),url(Images/laptop.jpg);
+    width: 100%;
+    height: 80%;
+}
+#quote{
+    color:rgb(255, 255, 254);
+    font-size: xx-large;
+    font-family: sans-serif;
+    text-align: left;
+    margin-top: -30%;
+    
+}
+#author{
+    color:rgb(255, 255, 254);
+    font-size:x-large;
+    font-style: italic;
+    text-align: left;
+    margin-top: -30%;
+    margin-left: 26%;
+}
+#founder{
+    margin-top: 8.5%;
+    margin-left: 3%;
+    font-weight: 600;
+    color: #f68218;
+    letter-spacing: 1px;
+}
+#about-fd{
+    font-weight: 200;
+    margin-left: 20%;
+    color: black;
+    margin-top:-21%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+#chairman{
+    margin-top: 13%;
+    margin-right: 3%;
+    margin-left: 80%;
+    font-weight: 600;
+    color: #f68218;
+    letter-spacing: 1px;
+}
+#line{
+    margin-left: 3%;
+}
+#fd{
+    color: rgb(9, 87, 98);
+    font-variant: small-caps;
+}
+#cm{
+    color: rgb(9, 87, 98);
+    font-variant: small-caps;
+}
+ #kSR-logo{
+    margin-left: 26%;
+} 
+#a-block{
+    background-image:linear-gradient(rgba(132, 111, 111, 0.601),rgba(255, 255, 255, 0.653)),url(Images/a-block.jpg.JPG);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    height: 40%;
+    width: 100%;
+    margin-bottom: -25%;
+}
+/* marquee{
+    font-family: 500;
+    height: 2%;
+    margin-top: -1.5%;
+  color: rgb(195, 208, 207);
+  font-variant: small-caps;
+  border-style:double;
+  background-image: linear-gradient(rgb(89, 50, 50),rgb(39, 73, 98),rgb(46, 62, 46));
+   width: 94.5%; 
+   margin-left: 5%;
+} */
+#lap-vdeo{
+    height: 70%;
+    width: 60%;
+    margin-top: -36%;
+    margin-left:38.7%;
+}
+#buzz{
+    margin-top: 9.8%;
+    border: 1px solid black;
+    background-color: #ffffff;
+    width: 3%;
+}
+#hod{
+    margin-left: 3%;
+    font-weight: 600;
+    color: #f68218;
+    letter-spacing: 1px;
+}
+#hod1{
+    color: rgb(9, 87, 98);
+    font-variant: small-caps;
+}
+#about-cm{  font-weight: 300;
+    margin-right: 22%;
+    margin-left: 3%;
+    color: black;
+    margin-top:-21%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+/* .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.561);
+    background-color: rgba(0, 0, 0, 0.549);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  } */
+  body {
+    background-color: #12131700;
+  }
+/*counting*/
+
+  /* .wrapper {
+    position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content:;
+    gap: 10px;
+   }  */
+   .container1{
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #18f98f;
+    margin-left: 20px;
+    margin-top: 340px;
+  }
+  .container2{
+        width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #18f98f;
+    margin-left: 20%;
+    margin-top:-19.3% ;
+  }
+  .container3{
+        width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #18f98f;
+    margin-left: 20px;
+    margin-top: -2%;
+  }
+  .container4{
+        width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #18f98f;
+    margin-left: 20%;
+    margin-top: -19.35%;
+  }
+  i {
+    color: #18f98f;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  .alumini{
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  .std{
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  .faculty{
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  span.text {
+    color: #e0e0e0;
+    font-size: 30px;
+    text-align: center;
+    pad: 0.7em 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    line-height: 0;
+  }
+  .plus{
+    color: white;
+   font-size: 50px;
+   text-align: end;
+   margin-top: -130px;
+  }
+  .plus1{
+    color: white;
+    font-size: 50px;
+    text-align: end;
+    margin-top: -130px;
+    margin-right: 15%;
+    }  @media screen and (max-width: 1024px) {
+    .wrapper {
+      width: 85vw;
+    }
+    .container {
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      width: 90vw;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .container {
+      width: calc(50% - 40px);
+      height: 30vmin;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      gap: 15px;
+    }
+    .container {
+      width: 100%;
+      height: 25vmin;
+      font-size: 8px;
+    }
+  }
